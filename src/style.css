@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* @layer components {
+  .brush {
+    font-family: "Brush Script MT";
+  }
+  .bg-change {
+    background-image: linear-gradient(320deg, hsl(35, 100%, 35%), #ff8c00);
+  }
+  .moto {
+    background-image: linear-gradient(280deg, #a9752d, #f49e14);
+    background-clip: text;
+    color: transparent;
+  }
+  .motorcycle {
+    background-image: linear-gradient(320deg, hsl(0, 0%, 0%), #ff8c00);
+    background-clip: text;
+    color: transparent;
+  }
+  .Navbar {
+    @apply lg: flex lg: border-0 md: border-0 lg: w-fit md: w-fit md: flex md: flex-row md: space-x-4 lg: space-x-6 lg: flex-row lg: justify-center md: justify-center lg: items-center md: items-center lg: mt-0 md: mt-0 mt-55 flex-col justify-center items-start h-fit w-full hidden border-2 border-amber-700;
+  }
+  .Arial {
+    font-family: Arial rounded MT;
+  }
+  .animate1 {
+    @apply relative before: content-[""] before: absolute before: -bottom-1 before: left-0 before: w-0 hover: before: w-full before: rounded-full before: bg-linear-300 before: from-amber-700 before: to-amber-500 before: h-[4px] before: transition-all before: duration-300;
+  }
+} */
+
+@custom-variant dark (&:where(.dark, .dark *));
