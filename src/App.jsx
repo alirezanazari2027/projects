@@ -1,5 +1,7 @@
+import { useTheme } from "next-themes";
 import { useTranslation } from "react-i18next";
 export default function App() {
+  const { theme, setTheme } = useTheme();
   const { t, i18n } = useTranslation();
   function changeLanguageToPersion() {
     i18n.changeLanguage("fa");
@@ -19,19 +21,19 @@ export default function App() {
         </h1>
         <div className="flex gap-3.5">
           <button
-            // onClick={() => setTheme("light")}
+            onClick={() => setTheme("light")}
             className="py-2 px-4 bg-indigo-700 text-white"
           >
             {t("home.light")}
           </button>
           <button
-            // onClick={() => setTheme("dark")}
+            onClick={() => setTheme("dark")}
             className="py-2 px-4 bg-indigo-700 text-white"
           >
             {t("home.dark")}
           </button>
           <button
-            // onClick={() => setTheme("system")}
+            onClick={() => setTheme("system")}
             className="py-2 px-4 bg-indigo-700 text-white"
           >
             {t("home.system")}
