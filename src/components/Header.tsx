@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <div className="bg-original-purple w-full py-8">
+    <div className="bg-original-purple w-full py-7">
       <div className="w-full max-w-6xl mx-auto text-white flex justify-between items-center">
         <div className="flex space-x-4">
           <a href="#">Author</a>
